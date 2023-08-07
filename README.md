@@ -1,2 +1,3 @@
 # java-log-parsers
 Java Log Utilities
+This collection of scripts provides utilities to analyze and filter Java verbose logs. The primary script parses Java verbose:class logs, extracting loaded classes and the JAR files they originate from. It ensures a clean output by filtering irrelevant log lines and excluding Java standard libraries, focusing on third-party libraries. The secondary script filters JAR paths based on user-specified matching strings, simplifying the identification of JARs related to specific keywords. These utilities streamline the process of understanding class loading behavior and pinpointing relevant JARs in Java applications.
